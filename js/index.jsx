@@ -35,8 +35,8 @@ var quotes = [{
     'quote': 'The Force is strong with this one.'
 }];
 
-var button = document.querySelector('#generateButton');
-var authors = [];
+
+var authors = ["All characters"];
 
 function loadAuthors() {
     quotes.forEach(function (result) {
@@ -49,22 +49,16 @@ function loadAuthors() {
 
 loadAuthors();
 
-function replace(name) {
-    
-}
-
+var char = "All characters";
 var ProperListRender = React.createClass({
     displayName: "ProperListRender",
-    handleClick: function handleClick() {
-        document.getElementById('dropdownMenu1').innerHTML = listValue;
-    },
     render: function () {
         return (
             React.createElement("li", null,
                 this.props.list.map(function (listValue) {
                     return React.createElement("a", {
-                        key:listValue,
-                        id: listValue,
+                        key: listValue,
+                        id: listValue
                     }, listValue);
                 })
             )
@@ -76,7 +70,15 @@ ReactDOM.render(React.createElement(ProperListRender, {
     list: authors
 }), document.getElementById('charList'));
 
+authors.forEach(function (author) {
+    document.getElementById(author).onclick = function () {
+        char = author;
+        document.getElementById(author);
+        document.getElementById("dropdownMenu1").innerHTML = author;
+    };
+})
 
+var button = document.querySelector('#generateButton');
 button.addEventListener('click', function onClick() {
     var quote = quotes[Math.floor(Math.random() * quotes.length)];
     ReactDOM.render(
@@ -89,4 +91,3 @@ button.addEventListener('click', function onClick() {
     );
     return
 });
-
