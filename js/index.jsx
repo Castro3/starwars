@@ -28,8 +28,38 @@ var quotes = [{
     'author': '- Obi-Wan-Kenobi',
     'quote': 'In my experience there is no such thing as luck.'
 }, {
+    'author': '- Obi-Wan-Kenobi',
+    'quote': 'These aren’t the droids you’re looking for..'
+}, {
+    'author': '- Yoda',
+    'quote': 'Death is a natural part of life. Rejoice for those around you who transform into the Force.'
+}, {
+    'author': '- Obi-Wan-Kenobi',
+    'quote': 'You were the chosen one! It was said that you would destroy the Sith, not join them.'
+}, {
+    'author': '- Darth Vader',
+    'quote': 'I’ve been waiting for you, Obi-Wan. We meet again, at last. The circle is now complete. When I left you, I was but the learner; now I am the master.'
+}, {
     'author': '- Yoda',
     'quote': 'If once you start down the dark side, forever will it dominate your destiney, consume you it will, as it did Obi-Wan\'s apprentice'
+}, {
+    'author': '- Obi-Wan-Kenobi',
+    'quote': 'Remember...the Force will be with you, always.'
+}, {
+    'author': '- Qui-Gon Jinn',
+    'quote': 'There\'s always a bigger fish.'
+}, {
+    'author': '- Darth Vader',
+    'quote': 'No. I am your Father.'
+}, {
+    'author': '- Han Solo',
+    'quote': 'One thing\'s for sure, we\'re all going to be a lot thinner.'
+}, {
+    'author': '- Han Solo',
+    'quote': 'Great shot kid, that was one in a million.'
+}, {
+    'author': '- Darth Vader',
+    'quote': 'Obi-Wan has taught you well.'
 }, {
     'author': '- Darth Vader',
     'quote': 'The Force is strong with this one.'
