@@ -90,24 +90,30 @@ authors.forEach(function (author) {
     };
 })
 
+var navbutton = document.querySelector('#navigbut');
+navbutton.addEventListener('click', function onClick() {
+    document.getElementById("html").className = "html-background";
+    return
+});
+
 var button = document.querySelector('#generateButton');
 button.addEventListener('click', function onClick() {
+    document.getElementById("html").className = "html-background2";
     var quote;
     if(char == "All characters")
         {
             quote = quotes[Math.floor(Math.random() * quotes.length)];
         }
-        
     else
         {
             quote = getQuote(char);
         }
     ReactDOM.render(
-        React.createElement('h1', null, quote.quote),
+        React.createElement('p', null, quote.quote),
         document.getElementById('quoteElement')
     );
     ReactDOM.render(
-        React.createElement('h1', null, quote.author),
+        React.createElement('p', null, quote.author),
         document.getElementById('authorElement')
     );
     return

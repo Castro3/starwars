@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Starjedi'; /*a name to be used later*/
+    src: url('../fonts/Starjedi.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'Queer Street'; /*a name to be used later*/
+    src: url('../fonts/Queer Street.ttf'); /*URL to font*/
+}
+.top-buffer {
+    margin-top: 80px;
+}
+.logo-title{
+    font-size: 30px;
+    color: #ffff00;
+    font-family: 'Starjedi'
+}
+.text-normal{
+    font-size: 60px;
+    color: #ffff00;
+    font-family: 'Queer Street'
+}
+.text-small{
+    font-size: 50px;
+    color: #ffff00;
+    font-family: 'Queer Street'
+}
+.html-background{ 
+  background: url(../img/background2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.html-background2{ 
+  background: url(../img/background3.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body { 
+    background-color: transparent;
+}
