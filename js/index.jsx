@@ -46,6 +46,12 @@ var quotes = [{
     'author': '- Obi-Wan-Kenobi',
     'quote': 'Remember...the Force will be with you, always.'
 }, {
+    'author': '- Han Solo',
+    'quote': 'That\’s not how the Force works!'
+}, {
+    'author': '- Bala-Tik',
+    'quote': 'Tell that to Kanjiklub'
+}, {
     'author': '- Qui-Gon Jinn',
     'quote': 'There\'s always a bigger fish.'
 }, {
