@@ -47,6 +47,17 @@ function loadAuthors() {
     });
 }
 
+function getQuote(localauthor)
+{
+    var quoteList = [];
+    quotes.forEach(function(result){
+        if(result.author.slice(2) == localauthor)
+            {
+                quoteList.push(result);
+            }
+    })
+    return quoteList[Math.floor(Math.random() * quoteList.length)];
+}
 loadAuthors();
 
 var char = "All characters";
@@ -75,12 +86,22 @@ authors.forEach(function (author) {
         char = author;
         document.getElementById(author);
         document.getElementById("dropdownMenu1").innerHTML = author;
+        console.log(char);
     };
 })
 
 var button = document.querySelector('#generateButton');
 button.addEventListener('click', function onClick() {
-    var quote = quotes[Math.floor(Math.random() * quotes.length)];
+    var quote;
+    if(char == "All characters")
+        {
+            quote = quotes[Math.floor(Math.random() * quotes.length)];
+        }
+        
+    else
+        {
+            quote = getQuote(char);
+        }
     ReactDOM.render(
         React.createElement('h1', null, quote.quote),
         document.getElementById('quoteElement')
