@@ -37,7 +37,7 @@ var quotes = [{
     'author': '- Obi-Wan-Kenobi',
     'quote': 'You were the chosen one! It was said that you would destroy the Sith, not join them.'
 }, {
-    'author': '- Darth Vader',
+    'author': '- Darth vader',
     'quote': 'I’ve been waiting for you, Obi-Wan. We meet again, at last. The circle is now complete. When I left you, I was but the learner; now I am the master.'
 }, {
     'author': '- Yoda',
@@ -55,7 +55,7 @@ var quotes = [{
     'author': '- Qui-Gon Jinn',
     'quote': 'There\'s always a bigger fish.'
 }, {
-    'author': '- Darth Vader',
+    'author': '- Darth vader',
     'quote': 'No. I am your Father.'
 }, {
     'author': '- Han Solo',
@@ -64,10 +64,10 @@ var quotes = [{
     'author': '- Han Solo',
     'quote': 'Great shot kid, that was one in a million.'
 }, {
-    'author': '- Darth Vader',
+    'author': '- Darth vader',
     'quote': 'Obi-Wan has taught you well.'
 }, {
-    'author': '- Darth Vader',
+    'author': '- Darth vader',
     'quote': 'The Force is strong with this one.'
 }];
 
